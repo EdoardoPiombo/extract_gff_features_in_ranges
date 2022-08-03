@@ -43,7 +43,7 @@ with open(ranges) as r:
             if len(intersection) > 0:
                 results.loc[str(id)] = data.loc[id]
                 results.loc[str(id), 'sequence'] = identifier 
-                results.loc[str(id), 'type'] = ''.join(line) 
+                results.loc[str(id), 'type'] = '__'.join(line) 
                 a = 1
         
         if a == 0 :
