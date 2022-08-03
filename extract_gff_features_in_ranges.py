@@ -50,7 +50,7 @@ with open(ranges) as r:
             id = ''.join(line)
             results.loc[str(id), 'sequence'] = identifier
             results.loc[str(id), 'feature'] = 'intergenic'
-            results.loc[str(id), 'type'] = ''.join(line) 
+            results.loc[str(id), 'type'] = '__'.join(line) 
 
                 
                 
