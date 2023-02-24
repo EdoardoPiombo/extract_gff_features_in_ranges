@@ -1,0 +1,6 @@
+range1	gene	ID=gene1	range1__contig5__800__1000
+range1	mRNA	ID=transcrip1;Parent=gene1	range1__contig5__800__1000
+range1	CDS	ID=cds1_protein1;Parent=transcript1;protein_id=protein1	range1__contig5__800__1000
+range2	intergenic		range2__contig6__2000__3000
+range3	CDS	ID=cds2_protein2;Parent=transcript2;protein_id=protein2	range3__contig6__4300__4500
+range4	intergenic		range4__contig8__900__1200

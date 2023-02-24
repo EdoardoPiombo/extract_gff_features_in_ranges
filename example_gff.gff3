@@ -1,0 +1,8 @@
+contig5	example	gene	500	1500	.	+	.	ID=gene1
+contig5	example	mRNA	500	1500	.	+	.	ID=transcrip1;Parent=gene1
+contig5	example	CDS	500	1300	.	+	0	ID=cds1_protein1;Parent=transcript1;protein_id=protein1
+contig6	example	gene	4000	6000	.	-	.	ID=gene2
+contig6	example	mRNA	4000	6000	.	-	.	ID=transcript2;Parent=gene2
+contig6	example	CDS	4000	4800	.	-	0	ID=cds2_protein2;Parent=transcript2;protein_id=protein2
+contig6	example	CDS	4900	5200	.	-	2	ID=cds2_protein2;Parent=transcript2;protein_id=protein2
+contig6	example	CDS	5700	6000	.	-	0	ID=cds2_protein2;Parent=transcript2;protein_id=protein2

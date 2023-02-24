@@ -1,0 +1,4 @@
+range1	contig5	800	1000
+range2	contig6	2000	3000
+range3	contig6	4300	4500
+range4	contig8	900	1200
