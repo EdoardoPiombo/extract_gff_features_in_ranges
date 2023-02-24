@@ -16,3 +16,11 @@ The output file, declared with the option "-o", will be a tsv file with a featur
 4: the contig and coordinated of the range of interest
 
 If a range of interest does not overlap any feature of the gff, it will still be present in the output file, containing "intergenic" in the second column.
+
+
+To test the program, run:
+python extract_gff_features_in_ranges.py -r example_ranges.txt -g example_gff.gff3 -l 1000 -o test.txt
+python extract_gff_features_in_ranges.py -r example_ranges.txt -g example_gff.gff3 -l 10000 -o test_2.txt
+
+And check that test.txt and test_2.txt are identical to example_output.txt and example_output_2.txt respectively.
+
